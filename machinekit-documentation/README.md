@@ -1,0 +1,36 @@
+Welcome to the Machinekit Documentation
+=======================================
+
+Here you’ll find the paths to information regarding building, working and collaborating on the Machinekit project and the Machinekit-docs.
+
+Getting Help
+============
+
+If you’re: - stuck - run into a problem - get errors - or similar you should ask a question on the google group Machinekit list. But before you ask a question, please do read the following [getting help instruction](getting-help.md).
+
+Place to start
+==============
+
+The first place you’ll want to start is [documents index](../index.md) This location bundles copies with updated links of the legacy `Master_*.md` files in [../src](../src) that were being used to generate LinuxCNC `.pdf` pages and `.html` files. These are currently no longer built and making these will require work.
+
+Making documentation should be easy
+===================================
+
+One of the tasks for the splitting of the `docs` in a separate repo was that it should be easy for anybody to document something. Because of that we focus on `.md` files that can be read and improved upon. This is 2015 after all :) You can actually help improve this documentation without knowing anything of "git". Just read these [instructions](/documenting/documenting.md) and you’ll be ready to go in the blink of an eye.
+
+Also have a look at [this matrix](documentation-matrix.md) to see if the information you search is there. Or if there is something in particular worth improving.
+
+Machinekit manpages
+===================
+
+Soon there will be a new machinekit-man repo with generated `.md` files where we can link to from this repo. That way an up-to-date and homo-sapiens readable variant of the component documentation will be readily available.
+
+If you want to make or change `manpage` documentation, you should be at [the machinekit/man directory](https://github.com/machinekit/machinekit/tree/master/man) when you build machinekit and want to see which manpages are generated and which are manually created you should look at the extension. Previously **all** components in [machinekit/man/man9](https://github.com/machinekit/machinekit/tree/master/man/man9) for example had the `.9` extension. The generated component manpages will be recognisable at the `.9comp` extension.
+
+Changing a generated component manpage should be done in the component source.
+
+------------------------------------------------------------------------
+
+Last updated 2015-12-20 22:15:56 CET
+
+

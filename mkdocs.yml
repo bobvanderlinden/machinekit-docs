@@ -1,3 +1,5 @@
 site_name: Machinekit Documentation
 docs_dir: './'
 site_dir: './build'
+repo_url: https://github.com/bobvanderlinden/machinekit-docs
+repo_name: 'GitHub'
